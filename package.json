@@ -1,0 +1,59 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "main": "index.js",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/camera": "latest",
+    "@capacitor/cli": "^3.4.3",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "^3.4.3",
+    "@capacitor/splash-screen": "latest",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.26",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "Ales Mraz",
+  "license": "MIT"
+}
